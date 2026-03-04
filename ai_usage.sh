@@ -12,8 +12,8 @@ done < <(find "/Users/$currentUser" -name ".git" -type d 2>/dev/null | grep -v "
 echo "Found ${#repoList[@]} repositories."
 
 # Credentials
-user="alyssa.biasotti"
-pass='0_Zb[[?CBqWdCQnMEj!vW=z$Y;1w?#O=l<Df_M4wPFrkS%gVnsD-wb#[Di2ctT^tKn.0Z[M,#K%dL&,^]s#6>4'
+user="demo_user"
+pass='demo_user_password'
 
 # Build base64 auth header
 base64AuthInfo=$(echo -n "$user:$pass" | base64)
